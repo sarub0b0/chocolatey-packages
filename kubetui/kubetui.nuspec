@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kubetui</id>
+    <version>1.5.0</version>
+    <projectSourceUrl>https://github.com/sarub0b0/kubetui/</projectSourceUrl>
+    <title>kubetui</title>
+    <authors>kosay</authors>
+    <projectUrl>https://github.com/sarub0b0/kubetui</projectUrl>
+    <licenseUrl>https://github.com/sarub0b0/kubetui/blob/main/LICENSE</licenseUrl>
+    <tags>kubetui kubernetes rust terminal monitor tui cli</tags>
+    <summary>TUI tool for monitoring and exploration of Kubernetes resources</summary>
+    <description>
+      Kubetui is a terminal user interface (TUI) tool designed for monitoring Kubernetes resources.
+      It provides an easy-to-use interface for developers and operators to access important information about their applications and infrastructure.
+    </description>
+    <releaseNotes>https://github.com/sarub0b0/kubetui/releases</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" version="14.38.33130"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools/*" target="tools" />
+  </files>
+</package>
