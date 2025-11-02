@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>kubetui</id>
-    <version>1.10.0</version>
+    <version>1.10.1</version>
     <projectSourceUrl>https://github.com/sarub0b0/kubetui/</projectSourceUrl>
     <title>kubetui</title>
     <authors>kosay</authors>
